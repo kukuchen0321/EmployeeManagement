@@ -12,8 +12,8 @@ public class DepartmentRepository {
 
     static {
         departments = new ArrayList<>();
-        departments.add(new Department(1,"manager"));
-        departments.add(new Department(2,"kernel"));
+        departments.add(new Department(1,"manager","New York"));
+        departments.add(new Department(2,"kernel","San Diego"));
     }
 
     public List<Department> getAllDepartments(){
